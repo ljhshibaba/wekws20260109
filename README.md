@@ -1,13 +1,21 @@
 # WeKws
+
 #运行的目录是在：wekws\examples\hi_xiaowen\s0
+
 #参考知乎训练步骤(https://zhuanlan.zhihu.com/p/686365901)
 
 #把数据文件放到/root/wekws/examples/hi_xiaowen/s0 中，然后运行run.sh
+
 #run.sh 0 0  标签
+
 #run.sh 1 1  数据特征
+
 #run.sh 2 2  模型训练
+
 #run.sh 3 3  模型测试
+
 #num_average=5  每5个epoch的5个pt模型，通过均值得出一个平均的模型
+
 #num_keywords=1  预测的标签数 ， 如现在 是 0 -1 ，则num_keywords =1 即可   就是相当于需要预测的标签数量 ， 如果是 num_keywords =2  则 标签数量为3 = 0,1,-1
 
 
